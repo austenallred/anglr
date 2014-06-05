@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+  <title>Using AngularJS Directives and Data Binding </title>
+</head>    
+
+<body>
+  <div class="container"
+    data-ng-init="names=['Austen','Levi','Heedy','Shriva']"> 
+      
+      <h3>Looping with the ng-repeat directive</h3>
+
+      <ul>
+        <li data-ng-repeat="variable in names">{{ variable }}</li>
+      </ul>
+  </div>      
+
+  <script src="angular.min.js"></script>
+</body>
+</html>  
